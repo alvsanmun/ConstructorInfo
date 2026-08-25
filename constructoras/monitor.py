@@ -189,7 +189,13 @@ class Monitor:
                 antiguo.get("content_hash")
                 and antiguo["content_hash"] != hash_titulo
             )
-            self.s.toca_item(fuente["id"], watch_id, clave, titulo, hash_titulo)
+            # Solo se escribe cuando de verdad ha cambiado algo. Si se tocara
+            # la fecha de cada item en cada pasada, el estado (que va al
+            # repositorio) mostraria miles de lineas modificadas a diario sin
+            # que hubiera novedad ninguna. Que el item sigue vivo ya lo dice
+            # el campo `activo`.
+            if cambio_titulo or not antiguo.get("content_hash"):
+                self.s.toca_item(fuente["id"], watch_id, clave, titulo, hash_titulo)
             if cambio_titulo and not baseline:
                 self.s.evento(
                     source_id=fuente["id"], source_name=fuente["name"],

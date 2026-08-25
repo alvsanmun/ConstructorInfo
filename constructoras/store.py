@@ -107,6 +107,12 @@ class Store:
         )
 
     def toca_item(self, source_id, watch_id, item_key, titulo=None, content_hash=None):
+        """Actualiza un item que ya conociamos.
+
+        `last_seen` significa "ultima vez que este item cambio", no "ultima vez
+        que se miro": se escribe solo cuando hay algo distinto. Que el item
+        sigue publicado lo indica `activo`.
+        """
         campos, vals = ["last_seen=?"], [ahora()]
         if titulo is not None:
             campos.append("title=?"); vals.append(titulo)
