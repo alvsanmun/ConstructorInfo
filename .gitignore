@@ -1,0 +1,13 @@
+# Entorno y dependencias
+.venv/
+__pycache__/
+*.pyc
+
+# Credenciales: nunca al repositorio
+.env
+
+# Estado de trabajo local y logs.
+# El estado que SI viaja al repositorio es estado/estado.json, que es lo que
+# lee y reescribe GitHub Actions en cada ejecucion.
+data/
+reports/

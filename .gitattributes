@@ -1,0 +1,14 @@
+# El estado y el codigo van SIEMPRE con finales de linea LF.
+# Sin esto, git los guardaria con CRLF en Windows y con LF en el Linux de
+# GitHub Actions: el fichero de estado apareceria como "cambiado por completo"
+# en cada ejecucion aunque no hubiera novedad ninguna.
+* text=auto eol=lf
+
+estado/*.json  text eol=lf
+*.py           text eol=lf
+*.yml          text eol=lf
+*.yaml         text eol=lf
+*.md           text eol=lf
+
+# PowerShell se queda con CRLF, que es lo suyo en Windows.
+*.ps1          text eol=crlf

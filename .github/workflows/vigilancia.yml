@@ -1,0 +1,111 @@
+name: Vigilancia de constructoras
+
+on:
+  schedule:
+    # 07:15 UTC = 09:15 en horario de verano peninsular, 08:15 en invierno.
+    # GitHub no garantiza la puntualidad: puede retrasarse minutos si hay cola.
+    - cron: "15 7 * * *"
+  workflow_dispatch:
+    inputs:
+      sin_aviso:
+        description: "Solo informe, sin enviar Telegram"
+        type: boolean
+        default: false
+      init:
+        description: "Reiniciar la memoria (memoriza lo actual sin avisar)"
+        type: boolean
+        default: false
+      solo:
+        description: "Revisar solo esta fuente (id de sources.yaml)"
+        type: string
+        default: ""
+
+# Dos ejecuciones a la vez se pisarian al escribir el estado.
+concurrency:
+  group: vigilancia
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Comprobar la deteccion de Huelva y Sevilla
+        run: python pruebas.py
+
+      - name: Revisar las webs
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Los inputs solo existen al lanzarlo a mano; en la ejecucion diaria
+          # llegan vacios. Se montan aqui como variables para no meter
+          # expresiones a medias dentro del comando.
+          SIN_AVISO: ${{ inputs.sin_aviso }}
+          INIT: ${{ inputs.init }}
+          SOLO: ${{ inputs.solo }}
+        run: |
+          argumentos=(--estado estado/estado.json --db "$RUNNER_TEMP/estado.db")
+          if [ "$SIN_AVISO" = "true" ]; then argumentos+=(--sin-aviso); fi
+          if [ "$INIT" = "true" ];      then argumentos+=(--init);      fi
+          if [ -n "$SOLO" ];            then argumentos+=(--solo "$SOLO"); fi
+          python -m constructoras.cli "${argumentos[@]}"
+
+      - name: Guardar el informe
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: informe-${{ github.run_number }}
+          path: reports/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Guardar el estado en el repositorio
+        if: success()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add estado/estado.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios en el estado."
+            exit 0
+          fi
+          git commit -m "Estado tras la revision del $(date -u +%Y-%m-%d)"
+          # Si otra ejecucion (o tu) ha empujado algo mientras tanto, rebasamos
+          # en vez de fallar. El estado es un unico fichero generado, asi que
+          # ante conflicto manda el que acabamos de calcular.
+          for intento in 1 2 3; do
+            git pull --rebase -X ours origin "${GITHUB_REF_NAME}" && break
+            sleep 5
+          done
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Avisar por Telegram si la revision ha fallado
+        if: failure()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$TOKEN" ] || [ -z "$CHAT" ]; then
+            echo "Telegram sin configurar; no se puede avisar del fallo."
+            exit 0
+          fi
+          curl -sS -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT}" \
+            --data-urlencode "parse_mode=HTML" \
+            --data-urlencode "text=⚠️ <b>La revision de constructoras ha fallado</b>%0ANo se ha comprobado nada hoy.%0A<a href=\"${URL}\">Ver el detalle del error</a>" \
+            > /dev/null

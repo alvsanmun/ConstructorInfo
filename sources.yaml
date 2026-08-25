@@ -1,0 +1,311 @@
+# =====================================================================
+#  Fuentes vigiladas por el agente.
+#
+#  kind:
+#    sitemap   -> recorre el sitemap (o indice) y vigila URLs nuevas.
+#                 Es la senal mas fiable en webs que pintan las fichas
+#                 con JavaScript (Grupo ABU, AEDAS...).
+#    links     -> vigila los enlaces de un listado que casen con `include`.
+#    titulares -> vigila los titulares h1-h4 de la pagina. Util para
+#                 secciones tipo "proximamente" sin enlaces propios.
+#
+#  provincias_forzadas -> la promotora SOLO opera en esas provincias, asi
+#                 que todo lo que publique se considera relevante aunque
+#                 el texto no nombre el municipio.
+#  solo_titulo  -> no abrir la ficha para ubicarla (webs lentas o pesadas).
+# =====================================================================
+
+opciones:
+  timeout: 30
+  delay_entre_peticiones: 1.5
+  reintentos: 2
+  respetar_robots: true
+  enriquecer_items: true              # abre la ficha de un item nuevo si no
+                                      # se sabe donde esta
+  max_enriquecer_por_ejecucion: 30
+  buscar_prensa: true                 # descubrir promotoras/cooperativas nuevas
+
+fuentes:
+
+  # ------------------------------------------------ las 8 que pediste
+  - id: urbanz
+    name: Urbanz (gestora de cooperativas)
+    homepage: https://urbanz.es/
+    nota: Cooperativas en Huelva, Sevilla y Malaga (Tres Velas, Alma del Odiel, William Martin Living).
+    watch:
+      - {kind: links, url: "https://urbanz.es/", id: "urbanz:home"}
+      - {kind: sitemap, url: "https://urbanz.es/sitemap.xml", id: "urbanz:sitemap"}
+      - {kind: titulares, url: "https://urbanz.es/", id: "urbanz:titulares"}
+
+  - id: solvia
+    name: Solvia
+    homepage: https://www.solvia.es/
+    # Su catalogo de obra nueva se pinta entero con JavaScript y no hay sitemap
+    # que lo recoja; su robots.txt ademas prohibe /api/ y /ajax/. Lo que si
+    # publican es un sitemap con una pagina por municipio donde tienen stock:
+    # que aparezca un municipio nuevo de Huelva o Sevilla es la senal util.
+    nota: Comercializadora (Intrum). Se vigila en que municipios tiene stock.
+    solo_titulo: true
+    watch:
+      - kind: sitemap
+        url: "https://www.solvia.es/sitemap_comprar_viviendas.xml"
+        include: "solvia\\.es/es/comprar/viviendas/(huelva|sevilla)/"
+        id: "solvia:municipios-venta"
+      - kind: sitemap
+        url: "https://www.solvia.es/sitemap_alquiler_viviendas.xml"
+        include: "solvia\\.es/es/alquiler/viviendas/(huelva|sevilla)/"
+        id: "solvia:municipios-alquiler"
+      - {kind: titulares, url: "https://www.solvia.es/es/obra-nueva", id: "solvia:obra-nueva"}
+
+  - id: bekinsa
+    name: Bekinsa
+    homepage: https://bekinsa.es/
+    nota: Mas de 50 anos; promociones en Huelva capital, Nuevo Portil y Sevilla.
+    watch:
+      - kind: links
+        url: "https://bekinsa.es/proyectos/"
+        include: "bekinsa\\.es/proyectos/[^/]+/$"
+        id: "bekinsa:proyectos"
+      - kind: sitemap
+        url: "https://bekinsa.es/sitemap_index.xml"
+        include: "bekinsa\\.es/(proyectos|noticias|blog)/"
+        exclude: "/en/"
+        id: "bekinsa:sitemap"
+
+  - id: grupoabu
+    name: Grupo ABU
+    homepage: https://grupoabu.es/
+    nota: Promotora sevillana con obra en Sevilla, Huelva, Cadiz, Malaga y Madrid.
+    watch:
+      - kind: sitemap
+        url: "https://grupoabu.es/sitemap_index.xml"
+        include: "grupoabu\\.es/(promociones-obra-nueva|ciudad)/.+"
+        id: "abu:sitemap-promos"
+      - kind: links
+        url: "https://grupoabu.es/prensa-grupo-abu/"
+        include: "grupoabu\\.es/(?!.*(ciudad|contacto|prensa/?$|quienes|clientes|promociones-obra-nueva/?$))[^/]+/$"
+        solo_titulo: true      # +300 notas de prensa; el titular ya dice la ciudad
+        id: "abu:prensa"
+      - {kind: titulares, url: "https://grupoabu.es/ciudad/huelva/", id: "abu:huelva"}
+      - {kind: titulares, url: "https://grupoabu.es/ciudad/sevilla/", id: "abu:sevilla"}
+
+  - id: inmovista
+    name: Inmovista Grupo Inmobiliario
+    homepage: https://inmovista.net/
+    nota: Agencia y promotora de Huelva capital (Las Jacarandas, Fuentepina).
+    provincias_forzadas: [Huelva]
+    watch:
+      - kind: links
+        url: "https://inmovista.net/inmuebles/"
+        include: "inmovista\\.net/(inmueble|propiedad|promocion|obra-nueva)"
+        id: "inmovista:inmuebles"
+      - {kind: titulares, url: "https://inmovista.net/inmuebles/", id: "inmovista:titulares"}
+      - kind: sitemap
+        url: "https://inmovista.net/wp-sitemap.xml"
+        exclude: "/(author|tag|category)/"
+        id: "inmovista:sitemap"
+
+  - id: intur
+    name: Intur Soluciones Inmobiliarias
+    homepage: https://intur.es/
+    nota: Huelva, Cadiz y Malaga. Residencial Intur Panoramico en el Ensanche Sur.
+    watch:
+      - kind: links
+        url: "https://intur.es/"
+        include: "intur\\.es/index\\.php/[^/]+/$"
+        exclude: "(about-us|contact|aviso-legal|politica|sample-page|demo|faq|gallery|icons|our-|home-1|the-building|apartments|prueba|copia|elementor)"
+        id: "intur:home"
+      # El blog usa el mismo patron de URL que las promociones, asi que aqui
+      # vigilamos titulares para no duplicar cada ficha dos veces.
+      - {kind: titulares, url: "https://intur.es/index.php/blog/", id: "intur:blog"}
+
+  - id: landco
+    name: LandCo (Grupo Santander)
+    homepage: https://www.landco.es/
+    nota: Suelo y obra nueva. Ha promovido Monacilla Golf (Aljaraque) y Entrenucleos (Dos Hermanas).
+    watch:
+      - kind: links
+        url: "https://www.landco.es/promocion-obra-nueva/"
+        include: "landco\\.es/promocion-obra-nueva/[^/]+\\.html"
+        id: "landco:promociones"
+      - kind: sitemap
+        url: "https://www.landco.es/sitemap.xml"
+        include: "landco\\.es/promocion-obra-nueva/"
+        id: "landco:sitemap"
+      # Venden tambien suelo finalista, que es donde se ve una promocion antes
+      # de que exista. Son 2.600 parcelas de toda Espana y el municipio va en
+      # la propia URL, asi que filtramos sin abrir ni una ficha.
+      - kind: sitemap
+        url: "https://www.landco.es/sitemap.xml"
+        include: "landco\\.es/terrenos/.+"
+        solo_titulo: true
+        solo_relevantes: true
+        id: "landco:suelos"
+
+  - id: aedas
+    name: AEDAS Homes
+    homepage: https://www.aedashomes.com/
+    nota: 25+ promociones en la provincia de Sevilla. Sin obra en Huelva a dia de hoy.
+    watch:
+      # Sus URLs llevan el municipio en el propio slug
+      # (pisos-en-venta-en-sevilla-gradia), asi que no hace falta abrir
+      # ~900 fichas para saber donde esta cada promocion.
+      - kind: sitemap
+        url: "https://www.aedashomes.com/sitemap-auto.xml"
+        exclude: "/(prensa|en)/"
+        solo_titulo: true
+        id: "aedas:promociones"
+      - kind: sitemap
+        url: "https://www.aedashomes.com/sitemap-auto.xml"
+        include: "/prensa/"
+        solo_titulo: true
+        id: "aedas:prensa"
+      - {kind: titulares, url: "https://www.aedashomes.com/viviendas-obra-nueva-sevilla", id: "aedas:sevilla"}
+      # Hoy da 404. El dia que exista sera senal de que AEDAS entra en Huelva,
+      # asi que vigilamos su aparicion sin quejarnos mientras no exista.
+      - kind: titulares
+        url: "https://www.aedashomes.com/viviendas-obra-nueva-huelva"
+        id: "aedas:huelva-watch"
+        silencioso: true
+        aviso_alta: "ESTRENA PAGINA DE HUELVA (hasta hoy no tenia obra en la provincia)"
+
+  # ------------------------------ otras promotoras y cooperativas con
+  # ------------------------------ obra en Huelva o Sevilla
+  - id: iceberg
+    name: Iceberg Viviendas (cooperativas)
+    homepage: https://icebergviviendas.com/
+    nota: Gestora de cooperativas en Sevilla, Cadiz y Malaga.
+    watch:
+      - kind: links
+        url: "https://icebergviviendas.com/promociones/"
+        include: "icebergviviendas\\.com/(promocion|en-venta|en-construccion)/[^/]+/$"
+        id: "iceberg:promociones"
+      - kind: sitemap
+        url: "https://icebergviviendas.com/sitemap_index.xml"
+        exclude: "/(author|tag|category)/"
+        id: "iceberg:sitemap"
+      - {kind: titulares, url: "https://icebergviviendas.com/actualidad/", id: "iceberg:actualidad"}
+
+  - id: insur
+    name: Grupo Insur
+    homepage: https://grupoinsur.com/
+    nota: Promotora sevillana cotizada, fuerte en Sevilla capital y Aljarafe.
+    watch:
+      - kind: links
+        url: "https://grupoinsur.com/promocion-de-viviendas"
+        include: "grupoinsur\\.com/(promocion|promociones)/"
+        id: "insur:promociones"
+      - {kind: titulares, url: "https://grupoinsur.com/promocion-de-viviendas", id: "insur:titulares"}
+
+  - id: metrovacesa
+    name: Metrovacesa
+    homepage: https://metrovacesa.com/
+    nota: Lider nacional por numero de proyectos; tiene pagina propia de Huelva y de Sevilla.
+    watch:
+      - {kind: titulares, url: "https://metrovacesa.com/promociones/sevilla", id: "mvc:sevilla"}
+      - {kind: titulares, url: "https://metrovacesa.com/promociones/huelva", id: "mvc:huelva"}
+      - kind: links
+        url: "https://metrovacesa.com/promociones/huelva"
+        include: "metrovacesa\\.com/promociones/[^/]+/[^/]+"
+        id: "mvc:huelva-links"
+      - kind: links
+        url: "https://metrovacesa.com/promociones/sevilla"
+        include: "metrovacesa\\.com/promociones/[^/]+/[^/]+"
+        id: "mvc:sevilla-links"
+
+  - id: culmia
+    name: Culmia
+    homepage: https://www.culmia.com/
+    # El listado general solo pinta la primera pagina, y por eso se escapaban
+    # sus tres promociones de Huelva (La Joya, La Joya II, Odelania). Con el
+    # filtro por provincia salen todas. Ojo al www: su certificado SSL no es
+    # valido para culmia.com a secas.
+    nota: Promotora nacional con obra en Huelva capital y en Sevilla.
+    watch:
+      - kind: links
+        url: "https://www.culmia.com/es/promociones/?provincia=huelva"
+        include: "culmia\\.com/es/promociones/[^/?]+/$"
+        id: "culmia:huelva"
+      - kind: links
+        url: "https://www.culmia.com/es/promociones/?provincia=sevilla"
+        include: "culmia\\.com/es/promociones/[^/?]+/$"
+        id: "culmia:sevilla"
+      - kind: links
+        url: "https://www.culmia.com/es/promociones/"
+        include: "culmia\\.com/es/promociones/[^/?]+/$"
+        id: "culmia:promociones"
+
+  - id: habitat
+    name: Habitat Inmobiliaria
+    homepage: https://www.habitatinmobiliaria.com/
+    nota: Segun los rankings de 2026, Sevilla es su provincia con mas viviendas iniciadas.
+    watch:
+      - kind: links
+        url: "https://www.habitatinmobiliaria.com/promociones/sevilla/"
+        include: "habitatinmobiliaria\\.com/promocion"
+        id: "habitat:sevilla"
+      - {kind: titulares, url: "https://www.habitatinmobiliaria.com/promociones/sevilla/", id: "habitat:sevilla-tit"}
+
+  - id: viacelere
+    name: Via Celere
+    homepage: https://www.viacelere.com/
+    # Igual que Culmia: el nombre de la promocion no dice donde esta. Su
+    # sitemap de promociones si las lista todas, no solo la primera pagina.
+    watch:
+      - kind: links
+        url: "https://www.viacelere.com/promociones/"
+        include: "viacelere\\.com/promocion/[^/]+/$"
+        id: "viacelere:promociones"
+      - kind: sitemap
+        url: "https://www.viacelere.com/promocion-sitemap.xml"
+        id: "viacelere:sitemap"
+
+  - id: neinor
+    name: Neinor Homes
+    homepage: https://www.neinorhomes.com/
+    nota: Tiene pagina propia de Sevilla y de Huelva.
+    watch:
+      - kind: links
+        url: "https://www.neinorhomes.com/promociones/sevilla/"
+        include: "neinorhomes\\.com/promociones/[^/]+/[^/]+"
+        id: "neinor:sevilla"
+      - kind: links
+        url: "https://www.neinorhomes.com/promociones/huelva/"
+        include: "neinorhomes\\.com/promociones/[^/]+/[^/]+"
+        id: "neinor:huelva"
+      - {kind: titulares, url: "https://www.neinorhomes.com/promociones/sevilla/", id: "neinor:sevilla-tit"}
+      - {kind: titulares, url: "https://www.neinorhomes.com/promociones/huelva/", id: "neinor:huelva-tit"}
+
+  - id: caralca
+    name: Caralca
+    homepage: https://www.caralca.es/
+    nota: Promotora de obra nueva con actividad en Sevilla.
+    watch:
+      - kind: links
+        url: "https://www.caralca.es/"
+        include: "caralca\\.es/(promocion|residencial|obra-nueva)"
+        id: "caralca:home"
+      - {kind: titulares, url: "https://www.caralca.es/", id: "caralca:titulares"}
+
+  - id: serprocol
+    name: Serprocol
+    homepage: https://www.serprocolinmobiliaria.com/
+    nota: Comercializa obra nueva en Huelva capital (Las Jacarandas).
+    provincias_forzadas: [Huelva]
+    watch:
+      - kind: links
+        url: "https://www.serprocolinmobiliaria.com/viviendas-en-curso/"
+        include: "serprocolinmobiliaria\\.com/viviendas-en-curso/[^/]+/$"
+        id: "serprocol:en-curso"
+      - {kind: titulares, url: "https://www.serprocolinmobiliaria.com/viviendas-en-curso/", id: "serprocol:titulares"}
+
+  - id: sevilla2000
+    name: Sevilla 2000 (obra nueva y cooperativas)
+    homepage: https://www.sevilla-2000.com/
+    provincias_forzadas: [Sevilla]
+    watch:
+      - kind: links
+        url: "https://www.sevilla-2000.com/servicios-promotores"
+        include: "sevilla-2000\\.com/(promocion|obra-nueva|inmueble)"
+        id: "sev2000:promotores"
+      - {kind: titulares, url: "https://www.sevilla-2000.com/servicios-promotores", id: "sev2000:titulares"}
