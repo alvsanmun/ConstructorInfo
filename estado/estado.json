@@ -3509,6 +3509,201 @@
    "ts": "2026-09-09T12:30:29+00:00",
    "url": "https://www.abc.es/sevilla/economia/constructora-ilh-apuesta-promocion-400-viviendas-espartinas-20251204172512-nts.html",
    "watch_id": "constructora Huelva viviendas promoción"
+  },
+  {
+   "detalle": "Fallos consecutivos: 2. Ultimo estado: ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7f70d4f7d6a0>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
+   "id": 235,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "urbanz",
+   "source_name": "Urbanz (gestora de cooperativas)",
+   "tipo": "web_caida",
+   "titulo": "Urbanz (gestora de cooperativas): web inaccesible",
+   "ts": "2026-09-10T12:14:46+00:00",
+   "url": "https://urbanz.es/",
+   "watch_id": "urbanz:home"
+  },
+  {
+   "detalle": "Fallos consecutivos: 2. Ultimo estado: sin resultados",
+   "id": 236,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "urbanz",
+   "source_name": "Urbanz (gestora de cooperativas)",
+   "tipo": "web_caida",
+   "titulo": "Urbanz (gestora de cooperativas): web inaccesible",
+   "ts": "2026-09-10T12:16:24+00:00",
+   "url": "https://urbanz.es/sitemap.xml",
+   "watch_id": "urbanz:sitemap"
+  },
+  {
+   "detalle": "Fallos consecutivos: 2. Ultimo estado: ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7f70d4f7f080>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
+   "id": 237,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "urbanz",
+   "source_name": "Urbanz (gestora de cooperativas)",
+   "tipo": "web_caida",
+   "titulo": "Urbanz (gestora de cooperativas): web inaccesible",
+   "ts": "2026-09-10T12:18:01+00:00",
+   "url": "https://urbanz.es/",
+   "watch_id": "urbanz:titulares"
+  },
+  {
+   "detalle": "Fallos consecutivos: 2. Ultimo estado: sin resultados",
+   "id": 238,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "bekinsa",
+   "source_name": "Bekinsa",
+   "tipo": "web_caida",
+   "titulo": "Bekinsa: web inaccesible",
+   "ts": "2026-09-10T12:18:07+00:00",
+   "url": "https://bekinsa.es/sitemap_index.xml",
+   "watch_id": "bekinsa:sitemap"
+  },
+  {
+   "detalle": "Promotora sevillana con obra en Sevilla, Huelva, Cadiz, Malaga y Madrid.",
+   "id": 239,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "grupoabu",
+   "source_name": "Grupo ABU",
+   "tipo": "nuevo",
+   "titulo": "Malaga Capital Las Esclavas Viviendas En Venta Calle Juan Valera",
+   "ts": "2026-09-10T12:18:28+00:00",
+   "url": "https://grupoabu.es/promociones-obra-nueva/malaga-capital-las-esclavas-viviendas-en-venta-calle-juan-valera/",
+   "watch_id": "abu:sitemap-promos"
+  },
+  {
+   "detalle": "Antes decia: Reserva Ya Tu Plaza Para La 6A Cena Benefica Fundacion Maria Jesus Vera En Pineda",
+   "id": 240,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "grupoabu",
+   "source_name": "Grupo ABU",
+   "tipo": "cambio",
+   "titulo": "VI CENA BENÉFICA En favor de ANDEX y el proyecto «LA ANTESALA»",
+   "ts": "2026-09-10T12:18:31+00:00",
+   "url": "https://grupoabu.es/reserva-ya-tu-plaza-para-la-6a-cena-benefica-fundacion-maria-jesus-vera-en-pineda/",
+   "watch_id": "abu:prensa"
+  },
+  {
+   "detalle": "Promotora sevillana con obra en Sevilla, Huelva, Cadiz, Malaga y Madrid.",
+   "id": 241,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "grupoabu",
+   "source_name": "Grupo ABU",
+   "tipo": "nuevo",
+   "titulo": "La Antesala El Proyecto De Andex Que Apoyara La Cena Benefica De La Fmjv Y Grupo Abu 2026",
+   "ts": "2026-09-10T12:18:31+00:00",
+   "url": "https://grupoabu.es/la-antesala-el-proyecto-de-andex-que-apoyara-la-cena-benefica-de-la-fmjv-y-grupo-abu-2026/",
+   "watch_id": "abu:prensa"
+  },
+  {
+   "detalle": "Promotora sevillana con obra en Sevilla, Huelva, Cadiz, Malaga y Madrid.",
+   "id": 242,
+   "lugares": "[\"Huelva\"]",
+   "notificado": 1,
+   "provincias": "[\"Huelva\"]",
+   "relevante": 1,
+   "source_id": "grupoabu",
+   "source_name": "Grupo ABU",
+   "tipo": "nuevo",
+   "titulo": "VI CENA BENÉFICA",
+   "ts": "2026-09-10T12:18:32+00:00",
+   "url": "https://grupoabu.es/ciudad/huelva/",
+   "watch_id": "abu:huelva"
+  },
+  {
+   "detalle": "Promotora sevillana con obra en Sevilla, Huelva, Cadiz, Malaga y Madrid.",
+   "id": 243,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 1,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "grupoabu",
+   "source_name": "Grupo ABU",
+   "tipo": "nuevo",
+   "titulo": "VI CENA BENÉFICA",
+   "ts": "2026-09-10T12:18:34+00:00",
+   "url": "https://grupoabu.es/ciudad/sevilla/",
+   "watch_id": "abu:sevilla"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 244,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "Culmia Valdecarros",
+   "ts": "2026-09-10T12:19:54+00:00",
+   "url": "https://www.culmia.com/es/promociones/culmia-valdecarros/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Fallos consecutivos: 3. Ultimo estado: ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7f70d49e17c0>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
+   "id": 245,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "sevilla2000",
+   "source_name": "Sevilla 2000 (obra nueva y cooperativas)",
+   "tipo": "web_caida",
+   "titulo": "Sevilla 2000 (obra nueva y cooperativas): web inaccesible",
+   "ts": "2026-09-10T12:22:21+00:00",
+   "url": "https://www.sevilla-2000.com/servicios-promotores",
+   "watch_id": "sev2000:promotores"
+  },
+  {
+   "detalle": "Fallos consecutivos: 3. Ultimo estado: ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7f70d4f34f20>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
+   "id": 246,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "sevilla2000",
+   "source_name": "Sevilla 2000 (obra nueva y cooperativas)",
+   "tipo": "web_caida",
+   "titulo": "Sevilla 2000 (obra nueva y cooperativas): web inaccesible",
+   "ts": "2026-09-10T12:23:59+00:00",
+   "url": "https://www.sevilla-2000.com/servicios-promotores",
+   "watch_id": "sev2000:titulares"
+  },
+  {
+   "detalle": "abc.es",
+   "id": 247,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 1,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Casas de obra nueva desde 107.000 euros: el mapa de las 2.000 VPO proyectadas en Sevilla y su provincia y cómo apuntarse",
+   "ts": "2026-09-10T12:24:10+00:00",
+   "url": "https://www.abc.es/sevilla/economia/inmobiliario/casas-obra-nueva-107000-euros-mapa-2000-20260910122706-nts.html",
+   "watch_id": "\"nueva promoción\" viviendas Sevilla"
   }
  ],
  "items": [
@@ -17973,12 +18168,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "ed0781e6c61c639e",
    "enriquecido": 1,
-   "first_seen": "2026-09-01T12:35:57+00:00",
+   "first_seen": "2026-09-10T12:19:54+00:00",
    "item_key": "https://culmia.com/es/promociones/culmia-valdecarros/",
-   "last_seen": "2026-09-02T12:08:01+00:00",
+   "last_seen": "2026-09-10T12:19:54+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -18003,12 +18198,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "7342f2ff7feabe32",
    "enriquecido": 1,
    "first_seen": "2026-09-09T12:26:14+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-en-comercializacion/",
-   "last_seen": "2026-09-09T12:26:14+00:00",
+   "last_seen": "2026-09-10T12:19:54+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -18018,12 +18213,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "f328e2d653722530",
    "enriquecido": 1,
    "first_seen": "2026-09-09T12:26:16+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-futuras/",
-   "last_seen": "2026-09-09T12:26:16+00:00",
+   "last_seen": "2026-09-10T12:19:54+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -18033,12 +18228,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "90b2b6109ad06b8e",
    "enriquecido": 1,
    "first_seen": "2026-09-09T12:26:19+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-vendidas/",
-   "last_seen": "2026-09-09T12:26:19+00:00",
+   "last_seen": "2026-09-10T12:19:54+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -18134,6 +18329,21 @@
    "relevante": 1,
    "source_id": "grupoabu",
    "title": "ABU ofrece un equilibrio armonioso de diseño natural y urbano que brinda un estilo de vida como ningún otro",
+   "url": "https://grupoabu.es/ciudad/huelva/",
+   "watch_id": "abu:huelva"
+  },
+  {
+   "activo": 1,
+   "content_hash": "8416bcf3f3280354",
+   "enriquecido": 0,
+   "first_seen": "2026-09-10T12:18:32+00:00",
+   "item_key": "https://grupoabu.es/ciudad/huelva/#h:8416bcf3f328",
+   "last_seen": "2026-09-10T12:18:32+00:00",
+   "lugares": "[\"Huelva\"]",
+   "provincias": "[\"Huelva\"]",
+   "relevante": 1,
+   "source_id": "grupoabu",
+   "title": "VI CENA BENÉFICA",
    "url": "https://grupoabu.es/ciudad/huelva/",
    "watch_id": "abu:huelva"
   },
@@ -21094,6 +21304,21 @@
   },
   {
    "activo": 1,
+   "content_hash": "9707ff7e64c90010",
+   "enriquecido": 0,
+   "first_seen": "2026-09-10T12:18:31+00:00",
+   "item_key": "https://grupoabu.es/la-antesala-el-proyecto-de-andex-que-apoyara-la-cena-benefica-de-la-fmjv-y-grupo-abu-2026/",
+   "last_seen": "2026-09-10T12:18:31+00:00",
+   "lugares": "[]",
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "grupoabu",
+   "title": "La Antesala El Proyecto De Andex Que Apoyara La Cena Benefica De La Fmjv Y Grupo Abu 2026",
+   "url": "https://grupoabu.es/la-antesala-el-proyecto-de-andex-que-apoyara-la-cena-benefica-de-la-fmjv-y-grupo-abu-2026/",
+   "watch_id": "abu:prensa"
+  },
+  {
+   "activo": 1,
    "content_hash": "ff2c65e6162901a6",
    "enriquecido": 0,
    "first_seen": "2026-08-25T10:10:18+00:00",
@@ -21408,12 +21633,12 @@
    "watch_id": "abu:prensa"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "e16dd8fa953e8af5",
    "enriquecido": 0,
    "first_seen": "2026-08-25T10:10:18+00:00",
    "item_key": "https://grupoabu.es/la-voz-de-cadiz-abu-entrega-los-pisos-de-residencial-las-cortes-a-sus-nuevos-propietarios-asi-se-ve-cadiz-desde-su-azotea/",
-   "last_seen": "2026-08-25T10:26:18+00:00",
+   "last_seen": "2026-09-10T12:18:31+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -21919,16 +22144,16 @@
   },
   {
    "activo": 1,
-   "content_hash": "9c95edb1c58e05a3",
+   "content_hash": "17219a469b37cf6c",
    "enriquecido": 0,
    "first_seen": "2026-09-08T12:07:40+00:00",
    "item_key": "https://grupoabu.es/reserva-ya-tu-plaza-para-la-6a-cena-benefica-fundacion-maria-jesus-vera-en-pineda/",
-   "last_seen": "2026-09-08T12:07:40+00:00",
+   "last_seen": "2026-09-10T12:18:31+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
    "source_id": "grupoabu",
-   "title": "Reserva Ya Tu Plaza Para La 6A Cena Benefica Fundacion Maria Jesus Vera En Pineda",
+   "title": "VI CENA BENÉFICA En favor de ANDEX y el proyecto «LA ANTESALA»",
    "url": "https://grupoabu.es/reserva-ya-tu-plaza-para-la-6a-cena-benefica-fundacion-maria-jesus-vera-en-pineda/",
    "watch_id": "abu:prensa"
   },
@@ -22744,6 +22969,21 @@
   },
   {
    "activo": 1,
+   "content_hash": "8416bcf3f3280354",
+   "enriquecido": 0,
+   "first_seen": "2026-09-10T12:18:34+00:00",
+   "item_key": "https://grupoabu.es/ciudad/sevilla/#h:8416bcf3f328",
+   "last_seen": "2026-09-10T12:18:34+00:00",
+   "lugares": "[\"Sevilla\"]",
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "grupoabu",
+   "title": "VI CENA BENÉFICA",
+   "url": "https://grupoabu.es/ciudad/sevilla/",
+   "watch_id": "abu:sevilla"
+  },
+  {
+   "activo": 1,
    "content_hash": "a4e3c38467bc226b",
    "enriquecido": 1,
    "first_seen": "2026-08-25T10:10:05+00:00",
@@ -23104,6 +23344,21 @@
   },
   {
    "activo": 1,
+   "content_hash": "06e1925cced46368",
+   "enriquecido": 1,
+   "first_seen": "2026-09-10T12:18:28+00:00",
+   "item_key": "https://grupoabu.es/promociones-obra-nueva/malaga-capital-las-esclavas-viviendas-en-venta-calle-juan-valera/",
+   "last_seen": "2026-09-10T12:18:28+00:00",
+   "lugares": "[]",
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "grupoabu",
+   "title": "Malaga Capital Las Esclavas Viviendas En Venta Calle Juan Valera",
+   "url": "https://grupoabu.es/promociones-obra-nueva/malaga-capital-las-esclavas-viviendas-en-venta-calle-juan-valera/",
+   "watch_id": "abu:sitemap-promos"
+  },
+  {
+   "activo": 1,
    "content_hash": "537595de44d8f8bb",
    "enriquecido": 1,
    "first_seen": "2026-08-25T10:08:29+00:00",
@@ -23253,12 +23508,12 @@
    "watch_id": "abu:sitemap-promos"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "9447df5acd661534",
    "enriquecido": 1,
    "first_seen": "2026-08-25T10:08:20+00:00",
    "item_key": "https://grupoabu.es/promociones-obra-nueva/promocion-de-obra-nueva-en-malaga-capital-las-esclavas-calle-juan-valera/",
-   "last_seen": "2026-08-25T10:26:15+00:00",
+   "last_seen": "2026-09-10T12:18:28+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -37661,7 +37916,7 @@
  ],
  "salud": [
   {
-   "fallos": 19,
+   "fallos": 20,
    "source_id": "aedas",
    "ultimo_estado": "HTTP 404",
    "ultimo_ok": null,
@@ -37671,32 +37926,32 @@
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:42+00:00",
+   "ultimo_ok": "2026-09-10T12:19:22+00:00",
    "watch_id": "aedas:prensa"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:37+00:00",
+   "ultimo_ok": "2026-09-10T12:19:21+00:00",
    "watch_id": "aedas:promociones"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:43+00:00",
+   "ultimo_ok": "2026-09-10T12:19:23+00:00",
    "watch_id": "aedas:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "bekinsa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:38+00:00",
+   "ultimo_ok": "2026-09-10T12:18:06+00:00",
    "watch_id": "bekinsa:proyectos"
   },
   {
-   "fallos": 1,
+   "fallos": 2,
    "source_id": "bekinsa",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-09-08T12:07:27+00:00",
@@ -37706,251 +37961,251 @@
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:34+00:00",
+   "ultimo_ok": "2026-09-10T12:20:09+00:00",
    "watch_id": "caralca:home"
   },
   {
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:35+00:00",
+   "ultimo_ok": "2026-09-10T12:20:11+00:00",
    "watch_id": "caralca:titulares"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:10+00:00",
+   "ultimo_ok": "2026-09-10T12:19:50+00:00",
    "watch_id": "culmia:huelva"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:13+00:00",
+   "ultimo_ok": "2026-09-10T12:19:52+00:00",
    "watch_id": "culmia:promociones"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:12+00:00",
+   "ultimo_ok": "2026-09-10T12:19:52+00:00",
    "watch_id": "culmia:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:53+00:00",
+   "ultimo_ok": "2026-09-10T12:18:32+00:00",
    "watch_id": "abu:huelva"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:52+00:00",
+   "ultimo_ok": "2026-09-10T12:18:31+00:00",
    "watch_id": "abu:prensa"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:55+00:00",
+   "ultimo_ok": "2026-09-10T12:18:34+00:00",
    "watch_id": "abu:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:48+00:00",
+   "ultimo_ok": "2026-09-10T12:18:17+00:00",
    "watch_id": "abu:sitemap-promos"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:20+00:00",
+   "ultimo_ok": "2026-09-10T12:19:55+00:00",
    "watch_id": "habitat:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:21+00:00",
+   "ultimo_ok": "2026-09-10T12:19:56+00:00",
    "watch_id": "habitat:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:58+00:00",
+   "ultimo_ok": "2026-09-10T12:19:37+00:00",
    "watch_id": "iceberg:actualidad"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:47+00:00",
+   "ultimo_ok": "2026-09-10T12:19:27+00:00",
    "watch_id": "iceberg:promociones"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:56+00:00",
+   "ultimo_ok": "2026-09-10T12:19:36+00:00",
    "watch_id": "iceberg:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:57+00:00",
+   "ultimo_ok": "2026-09-10T12:18:51+00:00",
    "watch_id": "inmovista:inmuebles"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:07+00:00",
+   "ultimo_ok": "2026-09-10T12:19:01+00:00",
    "watch_id": "inmovista:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:58+00:00",
+   "ultimo_ok": "2026-09-10T12:18:52+00:00",
    "watch_id": "inmovista:titulares"
   },
   {
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:59+00:00",
+   "ultimo_ok": "2026-09-10T12:19:38+00:00",
    "watch_id": "insur:promociones"
   },
   {
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:00+00:00",
+   "ultimo_ok": "2026-09-10T12:19:40+00:00",
    "watch_id": "insur:titulares"
   },
   {
    "fallos": 0,
    "source_id": "intur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:11+00:00",
+   "ultimo_ok": "2026-09-10T12:19:04+00:00",
    "watch_id": "intur:blog"
   },
   {
    "fallos": 0,
    "source_id": "intur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:10+00:00",
+   "ultimo_ok": "2026-09-10T12:19:03+00:00",
    "watch_id": "intur:home"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:12+00:00",
+   "ultimo_ok": "2026-09-10T12:19:05+00:00",
    "watch_id": "landco:promociones"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:27+00:00",
+   "ultimo_ok": "2026-09-10T12:19:08+00:00",
    "watch_id": "landco:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:25:28+00:00",
+   "ultimo_ok": "2026-09-10T12:19:10+00:00",
    "watch_id": "landco:suelos"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:05+00:00",
+   "ultimo_ok": "2026-09-10T12:19:42+00:00",
    "watch_id": "mvc:huelva"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:06+00:00",
+   "ultimo_ok": "2026-09-10T12:19:47+00:00",
    "watch_id": "mvc:huelva-links"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:02+00:00",
+   "ultimo_ok": "2026-09-10T12:19:41+00:00",
    "watch_id": "mvc:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:07+00:00",
+   "ultimo_ok": "2026-09-10T12:19:47+00:00",
    "watch_id": "mvc:sevilla-links"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:30+00:00",
+   "ultimo_ok": "2026-09-10T12:20:05+00:00",
    "watch_id": "neinor:huelva"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:33+00:00",
+   "ultimo_ok": "2026-09-10T12:20:08+00:00",
    "watch_id": "neinor:huelva-tit"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:29+00:00",
+   "ultimo_ok": "2026-09-10T12:20:04+00:00",
    "watch_id": "neinor:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:31+00:00",
+   "ultimo_ok": "2026-09-10T12:20:07+00:00",
    "watch_id": "neinor:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:37+00:00",
+   "ultimo_ok": "2026-09-10T12:20:12+00:00",
    "watch_id": "serprocol:en-curso"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:39+00:00",
+   "ultimo_ok": "2026-09-10T12:20:14+00:00",
    "watch_id": "serprocol:titulares"
   },
   {
-   "fallos": 2,
+   "fallos": 3,
    "source_id": "sevilla2000",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7f771e7908f0>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
+   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7f70d49e17c0>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
    "ultimo_ok": "2026-09-07T13:31:16+00:00",
    "watch_id": "sev2000:promotores"
   },
   {
-   "fallos": 2,
+   "fallos": 3,
    "source_id": "sevilla2000",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7f771ea12150>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
+   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7f70d4f34f20>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
    "ultimo_ok": "2026-09-07T13:31:18+00:00",
    "watch_id": "sev2000:titulares"
   },
@@ -37958,41 +38213,41 @@
    "fallos": 0,
    "source_id": "solvia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:35+00:00",
+   "ultimo_ok": "2026-09-10T12:18:03+00:00",
    "watch_id": "solvia:municipios-alquiler"
   },
   {
    "fallos": 0,
    "source_id": "solvia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:34+00:00",
+   "ultimo_ok": "2026-09-10T12:18:02+00:00",
    "watch_id": "solvia:municipios-venta"
   },
   {
    "fallos": 0,
    "source_id": "solvia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:24:36+00:00",
+   "ultimo_ok": "2026-09-10T12:18:05+00:00",
    "watch_id": "solvia:obra-nueva"
   },
   {
-   "fallos": 1,
+   "fallos": 2,
    "source_id": "urbanz",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7f771eb75520>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
+   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7f70d4f7d6a0>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
    "ultimo_ok": "2026-09-08T12:07:14+00:00",
    "watch_id": "urbanz:home"
   },
   {
-   "fallos": 1,
+   "fallos": 2,
    "source_id": "urbanz",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-09-08T12:07:15+00:00",
    "watch_id": "urbanz:sitemap"
   },
   {
-   "fallos": 1,
+   "fallos": 2,
    "source_id": "urbanz",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7f771eb768a0>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
+   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7f70d4f7f080>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
    "ultimo_ok": "2026-09-08T12:07:19+00:00",
    "watch_id": "urbanz:titulares"
   },
@@ -38000,14 +38255,14 @@
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:26+00:00",
+   "ultimo_ok": "2026-09-10T12:20:01+00:00",
    "watch_id": "viacelere:promociones"
   },
   {
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-09-09T12:26:28+00:00",
+   "ultimo_ok": "2026-09-10T12:20:03+00:00",
    "watch_id": "viacelere:sitemap"
   }
  ]
