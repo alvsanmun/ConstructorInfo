@@ -8534,6 +8534,81 @@
    "ts": "2026-11-06T15:01:05+00:00",
    "url": "https://www.elcorreo.com/politica/entregan-llaves-cinco-viviendas-alquiler-protegido-sevilla-20260616130514-vi.html",
    "watch_id": "viviendas protegidas Sevilla promotora"
+  },
+  {
+   "detalle": "Promotora sevillana con obra en Sevilla, Huelva, Cadiz, Malaga y Madrid.",
+   "id": 570,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "grupoabu",
+   "source_name": "Grupo ABU",
+   "tipo": "nuevo",
+   "titulo": "Grupo Abu Obtiene La Licencia De Obra De Art Marina Comienza Construccion En Torremolinos",
+   "ts": "2026-11-07T13:58:04+00:00",
+   "url": "https://grupoabu.es/grupo-abu-obtiene-la-licencia-de-obra-de-art-marina-comienza-construccion-en-torremolinos/",
+   "watch_id": "abu:prensa"
+  },
+  {
+   "detalle": "Ya no aparece en el listado (posible fin de comercializacion).",
+   "id": 571,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "grupoabu",
+   "source_name": "Grupo ABU",
+   "tipo": "retirado",
+   "titulo": "Comienzan Las Obras En La Fase Ii De Residencial En Artilleria El Buque Insignia De Grupo Abu En Sevilla",
+   "ts": "2026-11-07T13:58:04+00:00",
+   "url": "https://grupoabu.es/comienzan-las-obras-en-la-fase-ii-de-residencial-en-artilleria-el-buque-insignia-de-grupo-abu-en-sevilla/",
+   "watch_id": "abu:prensa"
+  },
+  {
+   "detalle": "abc.es",
+   "id": 572,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Culmia analiza opciones para entrar como promotora de viviendas en el Distrito Portuario de Sevilla",
+   "ts": "2026-11-07T13:59:55+00:00",
+   "url": "https://www.abc.es/sevilla/economia/culmia-negocia-edificar-viviendas-distrito-portuario-sevilla-20261107071215-nts.html",
+   "watch_id": "viviendas protegidas Sevilla promotora"
+  },
+  {
+   "detalle": "andaluciainformacion.es",
+   "id": 573,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "PSOE y PP se enfrentan por la falta de viviendas protegidas en Sevilla",
+   "ts": "2026-11-07T13:59:55+00:00",
+   "url": "https://www.andaluciainformacion.es/articulo/sevilla/andalucia-sevilla-psoe-lamenta-que-mayor-edificabilidad-conlleve-mas-vpo-pp-critica-inaccion-gobierno/202610221656253514724.html",
+   "watch_id": "viviendas protegidas Sevilla promotora"
+  },
+  {
+   "detalle": "europapress.es",
+   "id": 574,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Quince proyectos optan a diseñar las 31 viviendas protegidas que Sevilla Activa promoverá en Morón (Sevilla)",
+   "ts": "2026-11-07T13:59:55+00:00",
+   "url": "https://www.europapress.es/andalucia/diputacion-sevilla-01453/noticia-quince-proyectos-optan-disenar-31-viviendas-protegidas-sevilla-activa-promovera-moron-sevilla-20260910131946.html",
+   "watch_id": "viviendas protegidas Sevilla promotora"
   }
  ],
  "items": [
@@ -24123,12 +24198,12 @@
    "watch_id": "abu:prensa"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "30ba7a3512e9ae37",
    "enriquecido": 0,
    "first_seen": "2026-08-25T10:10:18+00:00",
    "item_key": "https://grupoabu.es/comienzan-las-obras-en-la-fase-ii-de-residencial-en-artilleria-el-buque-insignia-de-grupo-abu-en-sevilla/",
-   "last_seen": "2026-08-25T10:26:18+00:00",
+   "last_seen": "2026-11-07T13:58:04+00:00",
    "lugares": "[\"Sevilla\"]",
    "provincias": "[\"Sevilla\"]",
    "relevante": 1,
@@ -26010,6 +26085,21 @@
    "source_id": "grupoabu",
    "title": "Grupo Abu Nombra A Rosa Villaseca Como Su Nueva Ceo Para Liderar Su Proxima Etapa De Crecimiento",
    "url": "https://grupoabu.es/grupo-abu-nombra-a-rosa-villaseca-como-su-nueva-ceo-para-liderar-su-proxima-etapa-de-crecimiento/",
+   "watch_id": "abu:prensa"
+  },
+  {
+   "activo": 1,
+   "content_hash": "edc9932f3f88c78f",
+   "enriquecido": 0,
+   "first_seen": "2026-11-07T13:58:04+00:00",
+   "item_key": "https://grupoabu.es/grupo-abu-obtiene-la-licencia-de-obra-de-art-marina-comienza-construccion-en-torremolinos/",
+   "last_seen": "2026-11-07T13:58:04+00:00",
+   "lugares": "[]",
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "grupoabu",
+   "title": "Grupo Abu Obtiene La Licencia De Obra De Art Marina Comienza Construccion En Torremolinos",
+   "url": "https://grupoabu.es/grupo-abu-obtiene-la-licencia-de-obra-de-art-marina-comienza-construccion-en-torremolinos/",
    "watch_id": "abu:prensa"
   },
   {
@@ -43646,7 +43736,7 @@
  ],
  "salud": [
   {
-   "fallos": 77,
+   "fallos": 78,
    "source_id": "aedas",
    "ultimo_estado": "HTTP 404",
    "ultimo_ok": null,
@@ -43656,179 +43746,179 @@
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:58+00:00",
+   "ultimo_ok": "2026-11-07T13:58:44+00:00",
    "watch_id": "aedas:prensa"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:57+00:00",
+   "ultimo_ok": "2026-11-07T13:58:42+00:00",
    "watch_id": "aedas:promociones"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:59+00:00",
+   "ultimo_ok": "2026-11-07T13:58:45+00:00",
    "watch_id": "aedas:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "bekinsa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:58:57+00:00",
+   "ultimo_ok": "2026-11-07T13:57:44+00:00",
    "watch_id": "bekinsa:proyectos"
   },
   {
    "fallos": 0,
    "source_id": "bekinsa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:05+00:00",
+   "ultimo_ok": "2026-11-07T13:57:50+00:00",
    "watch_id": "bekinsa:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:46+00:00",
+   "ultimo_ok": "2026-11-07T13:59:36+00:00",
    "watch_id": "caralca:home"
   },
   {
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:47+00:00",
+   "ultimo_ok": "2026-11-07T13:59:37+00:00",
    "watch_id": "caralca:titulares"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:30+00:00",
+   "ultimo_ok": "2026-11-07T13:59:19+00:00",
    "watch_id": "culmia:huelva"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:32+00:00",
+   "ultimo_ok": "2026-11-07T13:59:21+00:00",
    "watch_id": "culmia:promociones"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:31+00:00",
+   "ultimo_ok": "2026-11-07T13:59:20+00:00",
    "watch_id": "culmia:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:20+00:00",
+   "ultimo_ok": "2026-11-07T13:58:05+00:00",
    "watch_id": "abu:huelva"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:19+00:00",
+   "ultimo_ok": "2026-11-07T13:58:04+00:00",
    "watch_id": "abu:prensa"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:21+00:00",
+   "ultimo_ok": "2026-11-07T13:58:06+00:00",
    "watch_id": "abu:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:15+00:00",
+   "ultimo_ok": "2026-11-07T13:58:00+00:00",
    "watch_id": "abu:sitemap-promos"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:35+00:00",
+   "ultimo_ok": "2026-11-07T13:59:22+00:00",
    "watch_id": "habitat:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:35+00:00",
+   "ultimo_ok": "2026-11-07T13:59:23+00:00",
    "watch_id": "habitat:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:16+00:00",
+   "ultimo_ok": "2026-11-07T13:59:00+00:00",
    "watch_id": "iceberg:actualidad"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:06+00:00",
+   "ultimo_ok": "2026-11-07T13:58:50+00:00",
    "watch_id": "iceberg:promociones"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:14+00:00",
+   "ultimo_ok": "2026-11-07T13:58:58+00:00",
    "watch_id": "iceberg:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:23+00:00",
+   "ultimo_ok": "2026-11-07T13:58:08+00:00",
    "watch_id": "inmovista:inmuebles"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:33+00:00",
+   "ultimo_ok": "2026-11-07T13:58:19+00:00",
    "watch_id": "inmovista:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:25+00:00",
+   "ultimo_ok": "2026-11-07T13:58:10+00:00",
    "watch_id": "inmovista:titulares"
   },
   {
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:18+00:00",
+   "ultimo_ok": "2026-11-07T13:59:02+00:00",
    "watch_id": "insur:promociones"
   },
   {
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:19+00:00",
+   "ultimo_ok": "2026-11-07T13:59:03+00:00",
    "watch_id": "insur:titulares"
   },
   {
    "fallos": 0,
    "source_id": "intur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:44+00:00",
+   "ultimo_ok": "2026-11-07T13:58:29+00:00",
    "watch_id": "intur:blog"
   },
   {
-   "fallos": 37,
+   "fallos": 38,
    "source_id": "intur",
    "ultimo_estado": "HTTP 503",
    "ultimo_ok": "2026-09-30T13:40:14+00:00",
@@ -43838,116 +43928,116 @@
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:45+00:00",
+   "ultimo_ok": "2026-11-07T13:58:30+00:00",
    "watch_id": "landco:promociones"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:47+00:00",
+   "ultimo_ok": "2026-11-07T13:58:33+00:00",
    "watch_id": "landco:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:59:49+00:00",
+   "ultimo_ok": "2026-11-07T13:58:34+00:00",
    "watch_id": "landco:suelos"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:25+00:00",
+   "ultimo_ok": "2026-11-07T13:59:11+00:00",
    "watch_id": "mvc:huelva"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:25+00:00",
+   "ultimo_ok": "2026-11-07T13:59:11+00:00",
    "watch_id": "mvc:huelva-links"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:20+00:00",
+   "ultimo_ok": "2026-11-07T13:59:07+00:00",
    "watch_id": "mvc:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:27+00:00",
+   "ultimo_ok": "2026-11-07T13:59:16+00:00",
    "watch_id": "mvc:sevilla-links"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:42+00:00",
+   "ultimo_ok": "2026-11-07T13:59:32+00:00",
    "watch_id": "neinor:huelva"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:45+00:00",
+   "ultimo_ok": "2026-11-07T13:59:35+00:00",
    "watch_id": "neinor:huelva-tit"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:41+00:00",
+   "ultimo_ok": "2026-11-07T13:59:31+00:00",
    "watch_id": "neinor:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:44+00:00",
+   "ultimo_ok": "2026-11-07T13:59:33+00:00",
    "watch_id": "neinor:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:50+00:00",
+   "ultimo_ok": "2026-11-07T13:59:40+00:00",
    "watch_id": "serprocol:en-curso"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:50+00:00",
+   "ultimo_ok": "2026-11-07T13:59:40+00:00",
    "watch_id": "serprocol:titulares"
   },
   {
    "fallos": 0,
    "source_id": "sevilla2000",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:51+00:00",
+   "ultimo_ok": "2026-11-07T13:59:41+00:00",
    "watch_id": "sev2000:promotores"
   },
   {
    "fallos": 0,
    "source_id": "sevilla2000",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:52+00:00",
+   "ultimo_ok": "2026-11-07T13:59:42+00:00",
    "watch_id": "sev2000:titulares"
   },
   {
-   "fallos": 31,
+   "fallos": 32,
    "source_id": "solvia",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-10-06T14:09:27+00:00",
    "watch_id": "solvia:municipios-alquiler"
   },
   {
-   "fallos": 31,
+   "fallos": 32,
    "source_id": "solvia",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-10-06T14:09:26+00:00",
@@ -43957,42 +44047,42 @@
    "fallos": 0,
    "source_id": "solvia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:58:47+00:00",
+   "ultimo_ok": "2026-11-07T13:57:41+00:00",
    "watch_id": "solvia:obra-nueva"
   },
   {
    "fallos": 0,
    "source_id": "urbanz",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:58:39+00:00",
+   "ultimo_ok": "2026-11-07T13:57:33+00:00",
    "watch_id": "urbanz:home"
   },
   {
    "fallos": 0,
    "source_id": "urbanz",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:58:40+00:00",
+   "ultimo_ok": "2026-11-07T13:57:33+00:00",
    "watch_id": "urbanz:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "urbanz",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T14:58:43+00:00",
+   "ultimo_ok": "2026-11-07T13:57:37+00:00",
    "watch_id": "urbanz:titulares"
   },
   {
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:39+00:00",
+   "ultimo_ok": "2026-11-07T13:59:27+00:00",
    "watch_id": "viacelere:promociones"
   },
   {
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-06T15:00:40+00:00",
+   "ultimo_ok": "2026-11-07T13:59:30+00:00",
    "watch_id": "viacelere:sitemap"
   }
  ]
