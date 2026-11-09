@@ -8654,6 +8654,141 @@
    "ts": "2026-11-08T14:27:28+00:00",
    "url": "https://www.abc.es/sevilla/ciudad/sevilla-capital-gana-viviendas-provincia-pierde-cinco-20261024070901-nts.html",
    "watch_id": "cooperativa de viviendas Sevilla"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 578,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "En comercialización",
+   "ts": "2026-11-09T17:28:21+00:00",
+   "url": "https://www.culmia.com/es/promociones/estado-en-comercializacion/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 579,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "Futuras",
+   "ts": "2026-11-09T17:28:23+00:00",
+   "url": "https://www.culmia.com/es/promociones/estado-futuras/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 580,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "Vendidas",
+   "ts": "2026-11-09T17:28:24+00:00",
+   "url": "https://www.culmia.com/es/promociones/estado-vendidas/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 581,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "Culmia Pozuelo De Alarcon",
+   "ts": "2026-11-09T17:28:26+00:00",
+   "url": "https://www.culmia.com/es/promociones/culmia-pozuelo-de-alarcon/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "europapress.es",
+   "id": 582,
+   "lugares": "[\"Huelva\"]",
+   "notificado": 0,
+   "provincias": "[\"Huelva\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "La Izquierda de Huelva pide que Diputación apoye a Lucena para \"no tirar\" los 1,6 millones en viviendas para temporeros",
+   "ts": "2026-11-09T17:28:49+00:00",
+   "url": "https://www.europapress.es/andalucia/huelva-00354/noticia-izquierda-huelva-pide-diputacion-apoye-lucena-no-tirar-16-millones-viviendas-temporeros-20260925162154.html",
+   "watch_id": "\"nueva promoción\" viviendas Huelva"
+  },
+  {
+   "detalle": "teleonuba.es",
+   "id": 583,
+   "lugares": "[\"Huelva\"]",
+   "notificado": 0,
+   "provincias": "[\"Huelva\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "El PP se reúne con el sector de la construcción para abordar el problema de la vivienda en Huelva",
+   "ts": "2026-11-09T17:28:51+00:00",
+   "url": "https://teleonuba.es/el-pp-se-reune-con-la-construccion-para-abordar-el-problema-de-la-vivienda-en-huelva/",
+   "watch_id": "constructora Huelva viviendas promoción"
+  },
+  {
+   "detalle": "elespanol.com",
+   "id": 584,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "La vivienda en Sevilla se convierte en escaparate político a un año de las elecciones",
+   "ts": "2026-11-09T17:28:55+00:00",
+   "url": "https://www.elespanol.com/sevilla/20260611/vivienda-sevilla-convierte-escaparate-politico-ano-elecciones/1003744280969_0.html",
+   "watch_id": "cooperativa de viviendas Sevilla"
+  },
+  {
+   "detalle": "eldiario.es",
+   "id": 585,
+   "lugares": "[\"Marinaleda\", \"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Alquileres a 20 euros en Marinaleda, el lugar donde no hay crisis de la vivienda: “Ya llevamos 33 años en nuestra casa”",
+   "ts": "2026-11-09T17:28:57+00:00",
+   "url": "https://www.eldiario.es/sevilla/alquileres-20-euros-marinaleda-lugar-no-hay-crisis-vivienda-llevamos-33-anos-casa_1_13542856.html",
+   "watch_id": "\"nueva promoción\" viviendas Sevilla"
+  },
+  {
+   "detalle": "europapress.es",
+   "id": 586,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "El alcalde de Sevilla anuncia que antes de junio de 2027 se pondrán en marcha 400 viviendas del Plan Centro Vivo",
+   "ts": "2026-11-09T17:28:58+00:00",
+   "url": "https://www.europapress.es/andalucia/sevilla-00357/noticia-alcalde-sevilla-anuncia-antes-junio-2027-pondran-marcha-400-viviendas-plan-centro-vivo-20261103161611.html",
+   "watch_id": "viviendas protegidas Sevilla promotora"
   }
  ],
  "items": [
@@ -23148,12 +23283,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "e65798024d130eae",
    "enriquecido": 1,
-   "first_seen": "2026-10-15T12:40:13+00:00",
+   "first_seen": "2026-11-09T17:28:26+00:00",
    "item_key": "https://culmia.com/es/promociones/culmia-pozuelo-de-alarcon/",
-   "last_seen": "2026-10-16T12:24:45+00:00",
+   "last_seen": "2026-11-09T17:28:26+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -23178,12 +23313,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "ed0781e6c61c639e",
    "enriquecido": 1,
    "first_seen": "2026-11-06T15:00:33+00:00",
    "item_key": "https://culmia.com/es/promociones/culmia-valdecarros/",
-   "last_seen": "2026-11-06T15:00:33+00:00",
+   "last_seen": "2026-11-09T17:28:26+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -23208,12 +23343,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "7342f2ff7feabe32",
    "enriquecido": 1,
-   "first_seen": "2026-11-05T15:27:56+00:00",
+   "first_seen": "2026-11-09T17:28:21+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-en-comercializacion/",
-   "last_seen": "2026-11-06T15:00:33+00:00",
+   "last_seen": "2026-11-09T17:28:21+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -23223,12 +23358,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "f328e2d653722530",
    "enriquecido": 1,
-   "first_seen": "2026-11-05T15:27:58+00:00",
+   "first_seen": "2026-11-09T17:28:23+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-futuras/",
-   "last_seen": "2026-11-06T15:00:33+00:00",
+   "last_seen": "2026-11-09T17:28:23+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -23238,12 +23373,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "90b2b6109ad06b8e",
    "enriquecido": 1,
-   "first_seen": "2026-11-05T15:27:59+00:00",
+   "first_seen": "2026-11-09T17:28:24+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-vendidas/",
-   "last_seen": "2026-11-06T15:00:33+00:00",
+   "last_seen": "2026-11-09T17:28:24+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -43781,7 +43916,7 @@
  ],
  "salud": [
   {
-   "fallos": 79,
+   "fallos": 80,
    "source_id": "aedas",
    "ultimo_estado": "HTTP 404",
    "ultimo_ok": null,
@@ -43791,179 +43926,179 @@
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:42+00:00",
+   "ultimo_ok": "2026-11-09T17:27:47+00:00",
    "watch_id": "aedas:prensa"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:41+00:00",
+   "ultimo_ok": "2026-11-09T17:27:41+00:00",
    "watch_id": "aedas:promociones"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:43+00:00",
+   "ultimo_ok": "2026-11-09T17:27:47+00:00",
    "watch_id": "aedas:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "bekinsa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:21:46+00:00",
+   "ultimo_ok": "2026-11-09T17:26:41+00:00",
    "watch_id": "bekinsa:proyectos"
   },
   {
-   "fallos": 1,
+   "fallos": 0,
    "source_id": "bekinsa",
-   "ultimo_estado": "sin resultados",
-   "ultimo_ok": "2026-11-07T13:57:50+00:00",
+   "ultimo_estado": "ok",
+   "ultimo_ok": "2026-11-09T17:26:46+00:00",
    "watch_id": "bekinsa:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:29+00:00",
+   "ultimo_ok": "2026-11-09T17:28:39+00:00",
    "watch_id": "caralca:home"
   },
   {
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:30+00:00",
+   "ultimo_ok": "2026-11-09T17:28:40+00:00",
    "watch_id": "caralca:titulares"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:14+00:00",
+   "ultimo_ok": "2026-11-09T17:28:18+00:00",
    "watch_id": "culmia:huelva"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:16+00:00",
+   "ultimo_ok": "2026-11-09T17:28:20+00:00",
    "watch_id": "culmia:promociones"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:15+00:00",
+   "ultimo_ok": "2026-11-09T17:28:20+00:00",
    "watch_id": "culmia:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:03+00:00",
+   "ultimo_ok": "2026-11-09T17:27:01+00:00",
    "watch_id": "abu:huelva"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:02+00:00",
+   "ultimo_ok": "2026-11-09T17:27:00+00:00",
    "watch_id": "abu:prensa"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:05+00:00",
+   "ultimo_ok": "2026-11-09T17:27:03+00:00",
    "watch_id": "abu:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:21:58+00:00",
+   "ultimo_ok": "2026-11-09T17:26:56+00:00",
    "watch_id": "abu:sitemap-promos"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:17+00:00",
+   "ultimo_ok": "2026-11-09T17:28:27+00:00",
    "watch_id": "habitat:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:18+00:00",
+   "ultimo_ok": "2026-11-09T17:28:28+00:00",
    "watch_id": "habitat:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:58+00:00",
+   "ultimo_ok": "2026-11-09T17:28:02+00:00",
    "watch_id": "iceberg:actualidad"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:47+00:00",
+   "ultimo_ok": "2026-11-09T17:27:52+00:00",
    "watch_id": "iceberg:promociones"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:56+00:00",
+   "ultimo_ok": "2026-11-09T17:28:00+00:00",
    "watch_id": "iceberg:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:07+00:00",
+   "ultimo_ok": "2026-11-09T17:27:05+00:00",
    "watch_id": "inmovista:inmuebles"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:17+00:00",
+   "ultimo_ok": "2026-11-09T17:27:15+00:00",
    "watch_id": "inmovista:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "inmovista",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:08+00:00",
+   "ultimo_ok": "2026-11-09T17:27:06+00:00",
    "watch_id": "inmovista:titulares"
   },
   {
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:58+00:00",
+   "ultimo_ok": "2026-11-09T17:28:04+00:00",
    "watch_id": "insur:promociones"
   },
   {
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:00+00:00",
+   "ultimo_ok": "2026-11-09T17:28:05+00:00",
    "watch_id": "insur:titulares"
   },
   {
    "fallos": 0,
    "source_id": "intur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:28+00:00",
+   "ultimo_ok": "2026-11-09T17:27:26+00:00",
    "watch_id": "intur:blog"
   },
   {
-   "fallos": 39,
+   "fallos": 40,
    "source_id": "intur",
    "ultimo_estado": "HTTP 503",
    "ultimo_ok": "2026-09-30T13:40:14+00:00",
@@ -43973,116 +44108,116 @@
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:29+00:00",
+   "ultimo_ok": "2026-11-09T17:27:27+00:00",
    "watch_id": "landco:promociones"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:31+00:00",
+   "ultimo_ok": "2026-11-09T17:27:29+00:00",
    "watch_id": "landco:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:22:33+00:00",
+   "ultimo_ok": "2026-11-09T17:27:31+00:00",
    "watch_id": "landco:suelos"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:05+00:00",
+   "ultimo_ok": "2026-11-09T17:28:11+00:00",
    "watch_id": "mvc:huelva"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:06+00:00",
+   "ultimo_ok": "2026-11-09T17:28:14+00:00",
    "watch_id": "mvc:huelva-links"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:01+00:00",
+   "ultimo_ok": "2026-11-09T17:28:06+00:00",
    "watch_id": "mvc:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:11+00:00",
+   "ultimo_ok": "2026-11-09T17:28:15+00:00",
    "watch_id": "mvc:sevilla-links"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:25+00:00",
+   "ultimo_ok": "2026-11-09T17:28:35+00:00",
    "watch_id": "neinor:huelva"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:28+00:00",
+   "ultimo_ok": "2026-11-09T17:28:38+00:00",
    "watch_id": "neinor:huelva-tit"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:24+00:00",
+   "ultimo_ok": "2026-11-09T17:28:34+00:00",
    "watch_id": "neinor:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:27+00:00",
+   "ultimo_ok": "2026-11-09T17:28:36+00:00",
    "watch_id": "neinor:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:32+00:00",
+   "ultimo_ok": "2026-11-09T17:28:44+00:00",
    "watch_id": "serprocol:en-curso"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:33+00:00",
+   "ultimo_ok": "2026-11-09T17:28:44+00:00",
    "watch_id": "serprocol:titulares"
   },
   {
-   "fallos": 1,
+   "fallos": 0,
    "source_id": "sevilla2000",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7ad82bc8b050>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
-   "ultimo_ok": "2026-11-07T13:59:41+00:00",
+   "ultimo_estado": "ok",
+   "ultimo_ok": "2026-11-09T17:28:45+00:00",
    "watch_id": "sev2000:promotores"
   },
   {
-   "fallos": 1,
+   "fallos": 0,
    "source_id": "sevilla2000",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='www.sevilla-2000.com', port=443): Max retries exceeded with url: /servicios-promotores (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sevilla-2000.com', port=443) at 0x7ad82bc8a180>, 'Connection to www.sevilla-2000.com timed out. (connect timeout=30)'))",
-   "ultimo_ok": "2026-11-07T13:59:42+00:00",
+   "ultimo_estado": "ok",
+   "ultimo_ok": "2026-11-09T17:28:46+00:00",
    "watch_id": "sev2000:titulares"
   },
   {
-   "fallos": 33,
+   "fallos": 34,
    "source_id": "solvia",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-10-06T14:09:27+00:00",
    "watch_id": "solvia:municipios-alquiler"
   },
   {
-   "fallos": 33,
+   "fallos": 34,
    "source_id": "solvia",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-10-06T14:09:26+00:00",
@@ -44092,42 +44227,42 @@
    "fallos": 0,
    "source_id": "solvia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:21:46+00:00",
+   "ultimo_ok": "2026-11-09T17:26:37+00:00",
    "watch_id": "solvia:obra-nueva"
   },
   {
-   "fallos": 1,
+   "fallos": 0,
    "source_id": "urbanz",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7ad82bdb53a0>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
-   "ultimo_ok": "2026-11-07T13:57:33+00:00",
+   "ultimo_estado": "ok",
+   "ultimo_ok": "2026-11-09T17:26:29+00:00",
    "watch_id": "urbanz:home"
   },
   {
-   "fallos": 1,
+   "fallos": 0,
    "source_id": "urbanz",
-   "ultimo_estado": "sin resultados",
-   "ultimo_ok": "2026-11-07T13:57:33+00:00",
+   "ultimo_estado": "ok",
+   "ultimo_ok": "2026-11-09T17:26:29+00:00",
    "watch_id": "urbanz:sitemap"
   },
   {
-   "fallos": 1,
+   "fallos": 0,
    "source_id": "urbanz",
-   "ultimo_estado": "ConnectTimeout: HTTPSConnectionPool(host='urbanz.es', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='urbanz.es', port=443) at 0x7ad82bdb6660>, 'Connection to urbanz.es timed out. (connect timeout=30)'))",
-   "ultimo_ok": "2026-11-07T13:57:37+00:00",
+   "ultimo_estado": "ok",
+   "ultimo_ok": "2026-11-09T17:26:33+00:00",
    "watch_id": "urbanz:titulares"
   },
   {
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:21+00:00",
+   "ultimo_ok": "2026-11-09T17:28:31+00:00",
    "watch_id": "viacelere:promociones"
   },
   {
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-08T14:23:23+00:00",
+   "ultimo_ok": "2026-11-09T17:28:33+00:00",
    "watch_id": "viacelere:sitemap"
   }
  ]
