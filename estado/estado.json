@@ -9794,6 +9794,156 @@
    "ts": "2026-11-19T16:33:44+00:00",
    "url": "https://www.abc.es/sevilla/ciudad/psoe-rechaza-construir-278-viviendas-proteccion-oficial-20261119112300-nts.html",
    "watch_id": "viviendas protegidas Sevilla promotora"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 654,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "En comercialización",
+   "ts": "2026-11-20T16:07:13+00:00",
+   "url": "https://www.culmia.com/es/promociones/estado-en-comercializacion/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 655,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "Futuras",
+   "ts": "2026-11-20T16:07:14+00:00",
+   "url": "https://www.culmia.com/es/promociones/estado-futuras/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 656,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "Vendidas",
+   "ts": "2026-11-20T16:07:15+00:00",
+   "url": "https://www.culmia.com/es/promociones/estado-vendidas/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Promotora nacional con obra en Huelva capital y en Sevilla.",
+   "id": 657,
+   "lugares": "[]",
+   "notificado": 1,
+   "provincias": "[]",
+   "relevante": 0,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "nuevo",
+   "titulo": "Finca Mossara",
+   "ts": "2026-11-20T16:07:17+00:00",
+   "url": "https://www.culmia.com/es/promociones/finca-mossara-una-idea-culmia/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "Ya no aparece en el listado (posible fin de comercializacion).",
+   "id": 658,
+   "lugares": "[\"Paradas\"]",
+   "notificado": 1,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "culmia",
+   "source_name": "Culmia",
+   "tipo": "retirado",
+   "titulo": "Culmia Albufereta Alicante",
+   "ts": "2026-11-20T16:07:17+00:00",
+   "url": "https://www.culmia.com/es/promociones/culmia-albufereta-alicante/",
+   "watch_id": "culmia:promociones"
+  },
+  {
+   "detalle": "sevilla.abc.es",
+   "id": 659,
+   "lugares": "[\"Sevilla\", \"Huelva\"]",
+   "notificado": 0,
+   "provincias": "[\"Huelva\", \"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Via Appia refuerza su apuesta por la vivienda de calidad con nuevas promociones en Sevilla y Huelva",
+   "ts": "2026-11-20T16:07:42+00:00",
+   "url": "https://sevilla.abc.es/contenidopromocionado/2026/02/12/via-appia-refuerza-su-apuesta-por-la-vivienda-de-calidad-con-nuevas-promociones-en-sevilla-y-huelva/",
+   "watch_id": "constructora Huelva viviendas promoción"
+  },
+  {
+   "detalle": "abc.es",
+   "id": 660,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Sevilla proyecta más viviendas en dos años de gobierno de Sanz que en siete de Espadas y Muñoz juntos",
+   "ts": "2026-11-20T16:07:45+00:00",
+   "url": "https://www.abc.es/sevilla/ciudad/sevilla-proyecta-viviendas-dos-anos-gobierno-sanz-20261120071717-nts.html",
+   "watch_id": "promotora viviendas Sevilla \"obra nueva\""
+  },
+  {
+   "detalle": "elperiodico.com",
+   "id": 661,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Sevilla proyecta 4.500 nuevas VPO hasta 2031 pero recorta un 75% la inversión en vivienda en 2027",
+   "ts": "2026-11-20T16:07:46+00:00",
+   "url": "https://www.elperiodico.com/es/sociedad/20261120/sevilla-proyecta-4-500-nuevas-136653059",
+   "watch_id": "cooperativa de viviendas Sevilla"
+  },
+  {
+   "detalle": "europapress.es",
+   "id": 662,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "El Ayuntamiento de Sevilla aprueba una ampliación de 2,9 millones en Emvisesa para modernizar 2.071 viviendas públicas",
+   "ts": "2026-11-20T16:07:46+00:00",
+   "url": "https://www.europapress.es/andalucia/sevilla-00357/noticia-ayuntamiento-sevilla-aprueba-ampliacion-29-millones-emvisesa-modernizar-2071-viviendas-publicas-20260927142902.html",
+   "watch_id": "cooperativa de viviendas Sevilla"
+  },
+  {
+   "detalle": "sevillaactualidad.com",
+   "id": 663,
+   "lugares": "[\"Sevilla\"]",
+   "notificado": 0,
+   "provincias": "[\"Sevilla\"]",
+   "relevante": 1,
+   "source_id": "prensa",
+   "source_name": "Prensa / descubrimiento",
+   "tipo": "prensa",
+   "titulo": "Sevilla aprueba el cambio de suelo en la Cruz del Campo para construir 176 nuevas viviendas protegidas",
+   "ts": "2026-11-20T16:07:49+00:00",
+   "url": "https://www.sevillaactualidad.com/sevilla/601516-sevilla-aprueba-el-cambio-de-suelo-en-la-cruz-del-campo-para-construir-176-nuevas-viviendas-protegidas/",
+   "watch_id": "viviendas protegidas Sevilla promotora"
   }
  ],
  "items": [
@@ -24198,12 +24348,12 @@
    "watch_id": "culmia:huelva"
   },
   {
-   "activo": 1,
+   "activo": 0,
    "content_hash": "14e6e30e310ca877",
    "enriquecido": 1,
    "first_seen": "2026-11-18T16:26:44+00:00",
    "item_key": "https://culmia.com/es/promociones/culmia-albufereta-alicante/",
-   "last_seen": "2026-11-18T16:26:44+00:00",
+   "last_seen": "2026-11-20T16:07:17+00:00",
    "lugares": "[\"Paradas\"]",
    "provincias": "[\"Sevilla\"]",
    "relevante": 1,
@@ -24378,12 +24528,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "7342f2ff7feabe32",
    "enriquecido": 1,
-   "first_seen": "2026-11-18T16:26:39+00:00",
+   "first_seen": "2026-11-20T16:07:13+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-en-comercializacion/",
-   "last_seen": "2026-11-19T16:33:09+00:00",
+   "last_seen": "2026-11-20T16:07:13+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -24393,12 +24543,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "f328e2d653722530",
    "enriquecido": 1,
-   "first_seen": "2026-11-18T16:26:41+00:00",
+   "first_seen": "2026-11-20T16:07:14+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-futuras/",
-   "last_seen": "2026-11-19T16:33:09+00:00",
+   "last_seen": "2026-11-20T16:07:14+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -24408,12 +24558,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "90b2b6109ad06b8e",
    "enriquecido": 1,
-   "first_seen": "2026-11-18T16:26:42+00:00",
+   "first_seen": "2026-11-20T16:07:15+00:00",
    "item_key": "https://culmia.com/es/promociones/estado-vendidas/",
-   "last_seen": "2026-11-19T16:33:09+00:00",
+   "last_seen": "2026-11-20T16:07:15+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -24423,12 +24573,12 @@
    "watch_id": "culmia:promociones"
   },
   {
-   "activo": 0,
+   "activo": 1,
    "content_hash": "8448fa4d755b0026",
    "enriquecido": 1,
-   "first_seen": "2026-11-16T17:01:47+00:00",
+   "first_seen": "2026-11-20T16:07:17+00:00",
    "item_key": "https://culmia.com/es/promociones/finca-mossara-una-idea-culmia/",
-   "last_seen": "2026-11-17T16:53:16+00:00",
+   "last_seen": "2026-11-20T16:07:17+00:00",
    "lugares": "[]",
    "provincias": "[]",
    "relevante": 0,
@@ -45101,7 +45251,7 @@
  ],
  "salud": [
   {
-   "fallos": 90,
+   "fallos": 91,
    "source_id": "aedas",
    "ultimo_estado": "HTTP 404",
    "ultimo_ok": null,
@@ -45111,151 +45261,151 @@
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:34+00:00",
+   "ultimo_ok": "2026-11-20T16:06:36+00:00",
    "watch_id": "aedas:prensa"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:33+00:00",
+   "ultimo_ok": "2026-11-20T16:06:35+00:00",
    "watch_id": "aedas:promociones"
   },
   {
    "fallos": 0,
    "source_id": "aedas",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:35+00:00",
+   "ultimo_ok": "2026-11-20T16:06:37+00:00",
    "watch_id": "aedas:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "bekinsa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:31:37+00:00",
+   "ultimo_ok": "2026-11-20T16:05:47+00:00",
    "watch_id": "bekinsa:proyectos"
   },
   {
    "fallos": 0,
    "source_id": "bekinsa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:31:43+00:00",
+   "ultimo_ok": "2026-11-20T16:05:53+00:00",
    "watch_id": "bekinsa:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:24+00:00",
+   "ultimo_ok": "2026-11-20T16:07:30+00:00",
    "watch_id": "caralca:home"
   },
   {
    "fallos": 0,
    "source_id": "caralca",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:26+00:00",
+   "ultimo_ok": "2026-11-20T16:07:31+00:00",
    "watch_id": "caralca:titulares"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:07+00:00",
+   "ultimo_ok": "2026-11-20T16:07:08+00:00",
    "watch_id": "culmia:huelva"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:09+00:00",
+   "ultimo_ok": "2026-11-20T16:07:09+00:00",
    "watch_id": "culmia:promociones"
   },
   {
    "fallos": 0,
    "source_id": "culmia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:08+00:00",
+   "ultimo_ok": "2026-11-20T16:07:09+00:00",
    "watch_id": "culmia:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:03+00:00",
+   "ultimo_ok": "2026-11-20T16:06:08+00:00",
    "watch_id": "abu:huelva"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:00+00:00",
+   "ultimo_ok": "2026-11-20T16:06:07+00:00",
    "watch_id": "abu:prensa"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:05+00:00",
+   "ultimo_ok": "2026-11-20T16:06:09+00:00",
    "watch_id": "abu:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "grupoabu",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:31:57+00:00",
+   "ultimo_ok": "2026-11-20T16:06:03+00:00",
    "watch_id": "abu:sitemap-promos"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:10+00:00",
+   "ultimo_ok": "2026-11-20T16:07:19+00:00",
    "watch_id": "habitat:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "habitat",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:11+00:00",
+   "ultimo_ok": "2026-11-20T16:07:19+00:00",
    "watch_id": "habitat:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:50+00:00",
+   "ultimo_ok": "2026-11-20T16:06:51+00:00",
    "watch_id": "iceberg:actualidad"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:39+00:00",
+   "ultimo_ok": "2026-11-20T16:06:40+00:00",
    "watch_id": "iceberg:promociones"
   },
   {
    "fallos": 0,
    "source_id": "iceberg",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:48+00:00",
+   "ultimo_ok": "2026-11-20T16:06:49+00:00",
    "watch_id": "iceberg:sitemap"
   },
   {
-   "fallos": 4,
+   "fallos": 5,
    "source_id": "inmovista",
    "ultimo_estado": "HTTP 404",
    "ultimo_ok": "2026-11-15T14:43:38+00:00",
    "watch_id": "inmovista:inmuebles"
   },
   {
-   "fallos": 4,
+   "fallos": 5,
    "source_id": "inmovista",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-11-15T14:43:48+00:00",
    "watch_id": "inmovista:sitemap"
   },
   {
-   "fallos": 4,
+   "fallos": 5,
    "source_id": "inmovista",
    "ultimo_estado": "HTTP 404",
    "ultimo_ok": "2026-11-15T14:43:40+00:00",
@@ -45265,25 +45415,25 @@
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:51+00:00",
+   "ultimo_ok": "2026-11-20T16:06:52+00:00",
    "watch_id": "insur:promociones"
   },
   {
    "fallos": 0,
    "source_id": "insur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:53+00:00",
+   "ultimo_ok": "2026-11-20T16:06:54+00:00",
    "watch_id": "insur:titulares"
   },
   {
    "fallos": 0,
    "source_id": "intur",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:20+00:00",
+   "ultimo_ok": "2026-11-20T16:06:23+00:00",
    "watch_id": "intur:blog"
   },
   {
-   "fallos": 50,
+   "fallos": 51,
    "source_id": "intur",
    "ultimo_estado": "HTTP 503",
    "ultimo_ok": "2026-09-30T13:40:14+00:00",
@@ -45293,116 +45443,116 @@
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:21+00:00",
+   "ultimo_ok": "2026-11-20T16:06:24+00:00",
    "watch_id": "landco:promociones"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:23+00:00",
+   "ultimo_ok": "2026-11-20T16:06:26+00:00",
    "watch_id": "landco:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "landco",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:25+00:00",
+   "ultimo_ok": "2026-11-20T16:06:28+00:00",
    "watch_id": "landco:suelos"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:00+00:00",
+   "ultimo_ok": "2026-11-20T16:07:00+00:00",
    "watch_id": "mvc:huelva"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:03+00:00",
+   "ultimo_ok": "2026-11-20T16:07:04+00:00",
    "watch_id": "mvc:huelva-links"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:32:56+00:00",
+   "ultimo_ok": "2026-11-20T16:06:57+00:00",
    "watch_id": "mvc:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "metrovacesa",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:04+00:00",
+   "ultimo_ok": "2026-11-20T16:07:04+00:00",
    "watch_id": "mvc:sevilla-links"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:20+00:00",
+   "ultimo_ok": "2026-11-20T16:07:26+00:00",
    "watch_id": "neinor:huelva"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:23+00:00",
+   "ultimo_ok": "2026-11-20T16:07:29+00:00",
    "watch_id": "neinor:huelva-tit"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:20+00:00",
+   "ultimo_ok": "2026-11-20T16:07:25+00:00",
    "watch_id": "neinor:sevilla"
   },
   {
    "fallos": 0,
    "source_id": "neinor",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:22+00:00",
+   "ultimo_ok": "2026-11-20T16:07:27+00:00",
    "watch_id": "neinor:sevilla-tit"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:29+00:00",
+   "ultimo_ok": "2026-11-20T16:07:34+00:00",
    "watch_id": "serprocol:en-curso"
   },
   {
    "fallos": 0,
    "source_id": "serprocol",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:30+00:00",
+   "ultimo_ok": "2026-11-20T16:07:34+00:00",
    "watch_id": "serprocol:titulares"
   },
   {
    "fallos": 0,
    "source_id": "sevilla2000",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:30+00:00",
+   "ultimo_ok": "2026-11-20T16:07:35+00:00",
    "watch_id": "sev2000:promotores"
   },
   {
    "fallos": 0,
    "source_id": "sevilla2000",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:32+00:00",
+   "ultimo_ok": "2026-11-20T16:07:37+00:00",
    "watch_id": "sev2000:titulares"
   },
   {
-   "fallos": 44,
+   "fallos": 45,
    "source_id": "solvia",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-10-06T14:09:27+00:00",
    "watch_id": "solvia:municipios-alquiler"
   },
   {
-   "fallos": 44,
+   "fallos": 45,
    "source_id": "solvia",
    "ultimo_estado": "sin resultados",
    "ultimo_ok": "2026-10-06T14:09:26+00:00",
@@ -45412,42 +45562,42 @@
    "fallos": 0,
    "source_id": "solvia",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:31:33+00:00",
+   "ultimo_ok": "2026-11-20T16:05:44+00:00",
    "watch_id": "solvia:obra-nueva"
   },
   {
    "fallos": 0,
    "source_id": "urbanz",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:31:25+00:00",
+   "ultimo_ok": "2026-11-20T16:05:37+00:00",
    "watch_id": "urbanz:home"
   },
   {
    "fallos": 0,
    "source_id": "urbanz",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:31:25+00:00",
+   "ultimo_ok": "2026-11-20T16:05:37+00:00",
    "watch_id": "urbanz:sitemap"
   },
   {
    "fallos": 0,
    "source_id": "urbanz",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:31:29+00:00",
+   "ultimo_ok": "2026-11-20T16:05:41+00:00",
    "watch_id": "urbanz:titulares"
   },
   {
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:15+00:00",
+   "ultimo_ok": "2026-11-20T16:07:23+00:00",
    "watch_id": "viacelere:promociones"
   },
   {
    "fallos": 0,
    "source_id": "viacelere",
    "ultimo_estado": "ok",
-   "ultimo_ok": "2026-11-19T16:33:17+00:00",
+   "ultimo_ok": "2026-11-20T16:07:24+00:00",
    "watch_id": "viacelere:sitemap"
   }
  ]
